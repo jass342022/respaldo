@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./css/reproductor.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header__img"
+        src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png"
+        alt="logo plazit"
+      />
+      <div class="header__menu">
+        <div class="header__menu--profile">
+          <img src="../Reproductor/img/user.svg" alt="user" />
+          <p>Perfil</p>
+        </div>
+        <ul>
+          <li><a href="/">Cuenta</a></li>
+          <li><a href="/">Cerra Session</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="main">
+      <h2 class="main__title">¿Que Quieres ver hoy?</h2>
+      <input class="input" type="text" placeholder="Buscar..." />
+    </section>
+    <h2 class="categories__title">Mi lista</h2>
+
+    <section class="carrousel">
+      <div class="carrousel__container">
+        <div class="carrousel-item">
+          <img
+            class="carrousel-item__img"
+            src="https://i.pinimg.com/236x/d5/c1/cf/d5c1cfbf8313bedd6b0c6966060533ce.jpg"
+            alt="img"
+          />
+          <div class="carrousel-item__details">
+            <div>
+              <img
+                class="carrousel-item__details--img"
+                src="../Reproductor/img/play.png"
+                alt="play"
+              />
+              <img
+                class="carrousel-item__details--img"
+                src="../Reproductor/img/plus-64.png"
+                alt="plus"
+              />
+            </div>
+
+            <p class="carrousel-item__details--title">Degrassi: Next Class</p>
+            <p class="carrousel-item__details--subtitle">2021 16</p>
+          </div>
+        </div>
+        <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/ca/14/68/ca1468f20b13fd87d99e9b9a40abd499.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+  
+              <p class="carrousel-item__details--title">STRANGER</p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/474x/6a/1c/98/6a1c98633fd4528742b2ea720badc51e.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              
+  
+              <p class="carrousel-item__details--title">Gotham </p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/52/b0/7e/52b07e988459094f83395da1160297db.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              <p class="carrousel-item__details--title">The Walking Dead </p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/8a/62/89/8a62897e13a2e9d70eb61ab3c6535f9e.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              
+  
+              <p class="carrousel-item__details--title">Flash</p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/c0/8c/63/c08c63887a6202cd08df525972724981.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              
+  
+              <p class="carrousel-item__details--title">Jefe en Pañales</p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/68/ce/d0/68ced074b6a8d279a892275ba2d6a729.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              
+  
+              <p class="carrousel-item__details--title">The 100</p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <h2 class="categories__title">Tendencias</h2>
+
+    <section class="carrousel">
+      <div class="carrousel__container">
+        <div class="carrousel-item">
+          <img
+            class="carrousel-item__img"
+            src="https://i.pinimg.com/236x/d5/c1/cf/d5c1cfbf8313bedd6b0c6966060533ce.jpg"
+            alt="img"
+          />
+          <div class="carrousel-item__details">
+            <div>
+              <img
+                class="carrousel-item__details--img"
+                src="../Reproductor/img/play.png"
+                alt="play"
+              />
+              <img
+                class="carrousel-item__details--img"
+                src="../Reproductor/img/plus-64.png"
+                alt="plus"
+              />
+            </div>
+
+            <p class="carrousel-item__details--title">Degrassi: Next Class</p>
+            <p class="carrousel-item__details--subtitle">2021 16</p>
+          </div>
+        </div>
+        <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/ca/14/68/ca1468f20b13fd87d99e9b9a40abd499.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+  
+              <p class="carrousel-item__details--title">STRANGER</p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/474x/6a/1c/98/6a1c98633fd4528742b2ea720badc51e.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              
+  
+              <p class="carrousel-item__details--title">Gotham </p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/52/b0/7e/52b07e988459094f83395da1160297db.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              <p class="carrousel-item__details--title">The Walking Dead </p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/8a/62/89/8a62897e13a2e9d70eb61ab3c6535f9e.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              
+  
+              <p class="carrousel-item__details--title">Flash</p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/c0/8c/63/c08c63887a6202cd08df525972724981.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              
+  
+              <p class="carrousel-item__details--title">Jefe en Pañales</p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+          <div class="carrousel-item">
+            <img
+              class="carrousel-item__img"
+              src="https://i.pinimg.com/236x/68/ce/d0/68ced074b6a8d279a892275ba2d6a729.jpg"
+              alt="img"
+            />
+            <div class="carrousel-item__details">
+              <div>
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/play.png"
+                  alt="play"
+                />
+                <img
+                  class="carrousel-item__details--img"
+                  src="../Reproductor/img/plus-64.png"
+                  alt="plus"
+                />
+              </div>
+              
+  
+              <p class="carrousel-item__details--title">The 100</p>
+              <p class="carrousel-item__details--subtitle">2021 16</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <footer class="footer">
+        <a href="/">Termino de  uso </a>
+        <a href="/">Declaracion de privacidad </a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
+  </body>
+</html>

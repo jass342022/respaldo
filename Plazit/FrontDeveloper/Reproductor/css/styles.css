@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  background-color: #8F57FD;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #8F57FD;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Mulish", sans-serif;
+  align-items: center;
+}
+.header__img {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.header__menu {
+  margin-right: 30px;
+}
+.header__menu ul {
+  display: none;
+  list-style: none;
+  padding: 0px;
+  position: absolute;
+  width: 100px;
+  text-align: right;
+  margin: 0px 0px 0px -14px;
+}
+.header__menu:hover ul,
+ul:hover {
+  display: block;
+}
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+.header__menu li {
+  margin: 10px 0px;
+}
+.header__menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+.header__menu--profile {
+  margin-right: 8px;
+
+  display: flex;
+  align-items: center;
+}
+.header__menu--profile img {
+  margin-right: 8px;
+  width: 40px;
+}
+.header__menu--profile p {
+  margin: 0px;
+  color: #fff;
+}
+.main
+{
+   height: 300px;
+}
+.main__title
+{
+   color:#fff;
+   font-size: 25px;
+}
+.input
+{
+    background-color: rgba(255,255,255, 0.1);
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 70%;
+   outline:none; 
+}
+::placeholder{
+    color: #fff;
+}
