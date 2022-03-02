@@ -1,0 +1,38 @@
+.box{
+    margin: 100px auto;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: relative;
+   transition-property: transform background;
+   transition-duration: 1s;
+   /*transition-delay: 2s;*/
+   transition-timing-function: ease-in;
+}
+.box:hover{
+ transform: scale(1.2);
+ background: #222;
+}
+.caja{
+    width: 600px;
+    height: 300px;
+
+}
+img{
+    width: 400px;
+    animation: mover 3s;
+    animation-iteration-count: 1;
+}
+@keyframes mover {
+    100%{ transform: translate(100%);}
+    80%{ transform: translate(80%);}
+    60%{ transform: translate(60%);}
+    40%{ transform: translate(40%);}
+    20%{ transform: translate(20%);}
+    0%{ transform: translate(0); }
+
+
+ 
+ 
+
+}

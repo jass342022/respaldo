@@ -1,0 +1,17 @@
+
+body{
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 600px;
+}
+@media screen and (max-width:600px ) {
+    h1{
+        text-align: center;
+    }
+    img{
+        max-width: 300px;
+    }
+}
