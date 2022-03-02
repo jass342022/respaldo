@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 90720211951,
+      "firstName": "july 1",
+      "lastName": "suarez",
+      "email": "julyevg@gmail.com",
+      "password": "MTIzNDU2",
+      "photoUrl": "https://www.gravatar.com/avatar/7c397d42f0751a24dd7479a3191bdff0"
+    },
+    {
+      "firstName": "Toffee",
+      "lastName": "Alvarez",
+      "email": "talvarez@gmail.com",
+      "password": "MTIzNDU2",
+      "id": 90720211952
+    },
+    {
+      "firstName": "andrea",
+      "lastName": "suarez",
+      "email": "andrea@gmail.com",
+      "password": "MTIzNDU2",
+      "id": 90720211953,
+      "photoUrl": "https://www.gravatar.com/avatar/ee656378a574bdb9240efdeb81e6c336"
+    }
+  ]
+}
